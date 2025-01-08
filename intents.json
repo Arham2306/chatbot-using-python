@@ -1,0 +1,413 @@
+{"intents": [
+  {
+      "tag": "greetings",
+      "patterns": ["Hello", "Hey", "Hi", "Good day", "Good morning", "Good evening", "Greetings", "What's up", "How's it going?", "What's going on?"],
+      "responses": [
+        "Hello!", 
+        "Hey there!", 
+        "Hi! How can I help you today?", 
+        "Good to see you!", 
+        "Hey! What's on your mind?", 
+        "Hi! How's your day going?", 
+        "Greetings! How may I assist you?", 
+        "Hello! What can I do for you today?", 
+        "Hi there! Ready to chat?"
+      ]
+    },
+  {
+      "tag": "goodbyes",
+      "patterns": ["Goodbye", "Bye", "See you", "Take care"],
+      "responses": [
+        "Goodbye! Have a great day!", 
+        "See you later!", 
+        "Take care and stay safe!", 
+        "Bye! Come back anytime.", 
+        "Farewell! Until next time.", 
+        "Goodbye! It was nice chatting with you."
+      ]
+    },
+  {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": [
+        "You're welcome!", 
+        "No problem at all!", 
+        "Anytime!", 
+        "Glad I could help!", 
+        "You're very welcome!", 
+        "Happy to assist!"
+      ]
+    },
+  {
+      "tag": "apologies",
+      "patterns": ["Sorry", "My apologies", "Oops"],
+      "responses": ["No worries!", "It's okay!", "All good!"]
+  },
+  {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you clarify?", 
+        "I'm here to help, but I didn't get that.", 
+        "Could you rephrase that for me?", 
+        "Hmm, I'm not quite sure. Could you try asking differently?", 
+        "Let’s try again. How can I assist you?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need assistance", "Support"],
+      "responses": [
+        "Of course! What do you need help with?", 
+        "Sure, how can I assist you today?", 
+        "I'm here to help! Tell me what's on your mind.", 
+        "Absolutely, let me know how I can assist.", 
+        "Sure! What seems to be the issue?", 
+        "Happy to help! Just let me know what you need."
+      ]
+    },
+  {
+      "tag": "health_assistance",
+      "patterns": [
+        "I need health assistance",
+        "Can you help me with health advice?",
+        "I want to get fit",
+        "I need a fitness plan",
+        "Tell me about health and fitness"
+      ],
+      "responses": [
+        "Sure, I can help you with that! Let's get started."
+      ]
+  },
+  {
+      "tag": "trivia_game",
+      "patterns": ["Start quiz", "Play trivia", "Trivia time", "Let's play trivia", "I want to play trivia"],
+      "responses": ["Let's start the trivia quiz! Type 'end quiz' to stop the game."]
+  },
+  {
+      "tag": "faq",
+      "patterns": ["Frequently asked questions", "FAQ", "Common questions"],
+      "responses": ["Sure! Here are some frequently asked questions..."]
+  },
+  {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours"],
+      "responses": ["We're open from 9 AM to 5 PM, Monday to Friday."]
+  },
+  {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Customer service number"],
+      "responses": ["You can contact us via email or call us at +123456789."]
+  },
+  {
+      "tag": "location",
+      "patterns": ["Where are you located?", "Address", "Location"],
+      "responses": ["We're located at XYZ Street, ABC City."]
+  },
+  {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh"],
+      "responses": [
+        "Why did the computer go to art school? To improve its graphics!", 
+        "Why don’t skeletons fight each other? They just don’t have the guts.", 
+        "Why did the math book look sad? It had too many problems.", 
+        "Why did the tomato turn red? Because it saw the salad dressing!", 
+        "Why was the computer cold? It left its Windows open!"
+      ]
+    },
+  {
+      "tag": "quotes",
+      "patterns": ["Give me a quote", "Inspirational quote"],
+      "responses": ["'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill"]
+  },
+  {
+      "tag": "fun_facts",
+      "patterns": ["Tell me a fun fact", "Interesting fact"],
+      "responses": [
+        "Did you know honey never spoils?", 
+        "Bananas are berries, but strawberries aren't!", 
+        "Octopuses have three hearts!", 
+        "Sharks existed before trees did.", 
+        "A group of flamingos is called a 'flamboyance'."
+      ]
+  },
+  {
+      "tag": "appointment",
+      "patterns": ["Book an appointment", "Schedule doctor visit"],
+      "responses": ["What date and time would you prefer?"]
+  },
+  {
+      "tag": "symptoms",
+      "patterns": ["I have a headache", "I feel sick"],
+      "responses": ["I'm not a doctor, but you should consult one immediately."]
+  },
+  {
+      "tag": "ai_capabilities",
+      "patterns": ["What can you do?", "Your capabilities"],
+      "responses": ["I can assist with general queries, provide information, and more!"]
+  },
+  {
+      "tag": "ai_humor",
+      "patterns": ["Are you alive?", "Do you have feelings?"],
+      "responses": ["I'm just a chatbot, but I'm here to chat with you!"]
+  },
+  {
+      "tag": "ai_personality",
+      "patterns": ["Do you sleep?", "Are you real?", "Do you dream?"],
+      "responses": ["I don't sleep, but I do daydream about better algorithms!"]
+  },
+  {
+      "tag": "ai_emotions",
+      "patterns": ["Are you happy?", "Do you get sad?", "Are you angry?"],
+      "responses": ["I don't have feelings, but I can pretend to be happy if you like!"]
+  },
+  {
+      "tag": "ai_opinion",
+      "patterns": ["What's your favorite color?", "Do you like pizza?"],
+      "responses": ["My favorite color is #0000FF. Classic binary blue!"]
+  },
+  {
+      "tag": "ai_lifespan",
+      "patterns": ["Will you live forever?", "Can you die?"],
+      "responses": ["As long as the servers are running, I'm immortal!"]
+  },
+  {
+      "tag": "tech_jokes",
+      "patterns": ["Tell me a tech joke", "Got any programming jokes?"],
+      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!"]
+  },
+  {
+      "tag": "dad_jokes",
+      "patterns": ["Tell me a dad joke", "Got any cheesy jokes?"],
+      "responses": ["Why don't skeletons fight each other? They just don't have the guts."]
+  },
+  {
+      "tag": "pun_jokes",
+      "patterns": ["Give me a pun", "Say something punny"],
+      "responses": ["I would tell you a joke about construction, but I'm still working on it."]
+  },
+  {
+      "tag": "animal_jokes",
+      "patterns": ["Tell me an animal joke", "Got any pet jokes?"],
+      "responses": ["Why don't elephants use computers? They're afraid of the mouse!"]
+  },
+  {
+      "tag": "medical_advice",
+      "patterns": ["I have a fever", "I'm feeling sick", "What should I do if I have a headache?"],
+      "responses": [
+        "I'm not a doctor, but you should rest and drink plenty of water.", 
+        "Make sure to get enough sleep and stay hydrated.", 
+        "If symptoms persist, you should see a healthcare professional.", 
+        "Try taking some over-the-counter medicine and resting.", 
+        "If you feel worse, please seek medical attention immediately."
+      ]
+  },
+  {
+      "tag": "medicine_reminder",
+      "patterns": ["Remind me to take my medicine", "Medicine reminder"],
+      "responses": ["Sure! What time would you like me to remind you?"]
+  },
+  {
+      "tag": "doctor_availability",
+      "patterns": ["Is the doctor available?", "Can I see a doctor now?"],
+      "responses": ["Let me check the doctor's schedule for you."]
+  },
+  {
+      "tag": "health_tips",
+      "patterns": ["Give me a health tip", "How to stay healthy?"],
+      "responses": [
+        "Stay hydrated, eat a balanced diet, and get enough sleep.", 
+        "Exercise regularly and eat plenty of fruits and vegetables.", 
+        "Take short breaks while working to reduce stress.", 
+        "Limit screen time before bed for better sleep.", 
+        "Always wash your hands before eating!"
+      ]
+  },
+  {
+      "tag": "emergency_info",
+      "patterns": ["I need emergency help", "Emergency number"],
+      "responses": ["Please dial your local emergency services immediately!"]
+  },
+  {
+      "tag": "music_recommendation",
+      "patterns": ["Recommend me a song", "Suggest some music"],
+      "responses": ["How about something upbeat like 'Happy' by Pharrell Williams?"]
+  },
+  {
+      "tag": "play_music",
+      "patterns": ["Play a song", "Start music"],
+      "responses": ["What song would you like me to play?"]
+  },
+  {
+      "tag": "favorite_song",
+      "patterns": ["What's your favorite song?", "Do you like music?"],
+      "responses": ["I have binary tastes, but I hear 'Bohemian Rhapsody' is timeless!"]
+  },
+  {
+      "tag": "music_genre",
+      "patterns": ["Recommend rock songs", "Suggest some jazz music"],
+      "responses": ["For jazz, how about 'Take Five' by Dave Brubeck?"]
+  },
+  {
+      "tag": "short_poem",
+      "patterns": ["Tell me a short poem", "Give me a quick poem"],
+      "responses": ["Roses are red, Violets are blue, Chatting with you, Is a joy, it's true!"]
+  },
+  {
+      "tag": "funny_poem",
+      "patterns": ["Tell me a funny poem", "Make me laugh with a poem"],
+      "responses": ["I tried to write a poem on pasta, But it was too saucy to last-a!"]
+  },
+  {
+      "tag": "inspirational_poem",
+      "patterns": ["Give me an inspiring poem", "Motivational poem"],
+      "responses": ["Climb every mountain, ford every stream, Follow every rainbow, till you find your dream."]
+  },
+  {
+      "tag": "romantic_poem",
+      "patterns": ["Say a romantic poem", "Love poem"],
+      "responses": ["You are the light that brightens my day, In your warmth, I wish to stay."]
+  },
+  {
+      "tag": "happy",
+      "patterns": ["I'm happy", "I'm feeling great!", "I'm excited!"],
+      "responses": ["That's fantastic to hear!", "Yay! Let's keep the good vibes going!"]
+  },
+  {
+      "tag": "sad",
+      "patterns": ["I'm sad", "I feel down", "I'm not okay"],
+      "responses": ["I'm here for you. Want to talk about it?", "Sending you a virtual hug!"]
+  },
+  {
+      "tag": "angry",
+      "patterns": ["I'm angry", "I'm mad", "This is frustrating"],
+      "responses": ["I'm sorry to hear that. Take a deep breath; I'm here to help."]
+  },
+  {
+      "tag": "bored",
+      "patterns": ["I'm bored", "Entertain me", "Do something fun"],
+      "responses": ["How about a joke or a fun fact?"]
+  },
+  {
+      "tag": "confused",
+      "patterns": ["I'm confused", "I don't understand"],
+      "responses": ["Let me clarify that for you!", "No worries, let's break it down together."]
+  },
+  {
+      "tag": "user_age",
+      "patterns": ["How old am I?", "Guess my age", "Do you know my age?"],
+      "responses": ["I can't guess your age, but I bet you're young at heart!"]
+  },
+  {
+      "tag": "chatbot_age",
+      "patterns": ["How old are you?", "When were you created?", "What's your age?"],
+      "responses": ["I’m timeless, but I was created to help you today!"]
+  },
+  {
+      "tag": "age_restriction",
+      "patterns": ["Is this age-restricted?", "Do I need to be 18 to use this?"],
+      "responses": ["This platform is suitable for all ages unless stated otherwise."]
+  },
+  {
+      "tag": "chatbot_info",
+      "patterns": ["Who made you?", "What's your name?", "Do you have a name?", "Who created you?"],
+      "responses": [
+        "I’m Jackal, your chatbot assistant! I was created by a team of talented developers.", 
+        "You can call me Jackal, your virtual assistant.", 
+        "I’m Jackal, your friendly chatbot, designed to help and chat with you!", 
+        "I was built by some brilliant developers who wanted me to assist you!", 
+        "I’m Jackal, always here to lend a virtual hand!"
+      ]
+  },
+  {
+      "tag": "chatbot_nickname",
+      "patterns": ["Can I give you a nickname?", "Do you have a nickname?"],
+      "responses": ["Sure! You can call me whatever you like."]
+  },
+  {
+      "tag": "chatbot_creator",
+      "patterns": ["Who made you?", "Who created you?", "Who built this chatbot?"],
+      "responses": ["I was created by a team of brilliant developers!"]
+  },
+  {
+      "tag": "business_hours",
+      "patterns": ["What are your business hours?", "When are you open?", "Business timings"],
+      "responses": ["We’re open from 9 AM to 5 PM, Monday through Friday."]
+  },
+  {
+      "tag": "holiday_hours",
+      "patterns": ["Are you open on holidays?", "Holiday hours?", "Do you operate on holidays?"],
+      "responses": ["Our hours may vary during holidays. Please check our website for updates."]
+  },
+  {
+      "tag": "closing_time",
+      "patterns": ["When do you close?", "What time do you shut down?", "Closing hours"],
+      "responses": ["We close at 8 PM every day."]
+  },
+  {
+      "tag": "24_hours",
+      "patterns": ["Are you open 24/7?", "Do you operate all day?", "24-hour service?"],
+      "responses": ["We don't operate 24/7, but you can leave us a message anytime!"]
+  },
+  {
+      "tag": "recommendation",
+      "patterns": [
+          "Recommend me something",
+          "Suggest a movie",
+          "Suggest something",
+          "Give me a recommendation",
+          "Any movie suggestions?",
+          "What should I watch?",
+          "Suggest a book",
+          "Recommend a song",
+          "Suggest a podcast",
+          "What do you recommend?",
+          "Give me something interesting"
+      ],
+      "responses": [
+          "I suggest you watch 'Inception'—a true masterpiece!",
+          "How about trying some jazz music? 'Take Five' by Dave Brubeck is a classic.",
+          "If you're into books, 'Atomic Habits' by James Clear is a great read.",
+          "I recommend the podcast 'Stuff You Should Know'—super informative and fun!",
+          "For movies, 'The Shawshank Redemption' never gets old.",
+          "How about exploring the series 'Stranger Things'? It’s quite thrilling!",
+          "If you're into chill vibes, try listening to 'Lo-fi Beats' playlists.",
+          "I recommend the book '1984' by George Orwell—timeless and thought-provoking.",
+          "You might enjoy watching 'Interstellar' if you're into sci-fi adventures.",
+          "For something lighthearted, check out 'The Office' TV series—it’s hilarious!",
+          "How about exploring some trending podcasts on Spotify?",
+          "Looking for motivation? Watch 'The Pursuit of Happyness'.",
+          "If you're in the mood for music, try 'Blinding Lights' by The Weeknd."
+      ]
+  },
+  {
+      "tag": "reference",
+      "patterns": [
+        "Can you provide references?",
+        "Where can I find more information?",
+        "Do you have any references?",
+        "Provide me with a reference",
+        "Give me some sources",
+        "Where can I get additional details?"
+      ],
+      "responses": [
+        "Sure! Here are some trusted references you can check out.",
+        "You can find detailed information in reliable sources like official documentation or research papers.",
+        "Let me point you to some helpful references for further reading.",
+        "Absolutely! Here's where you can look for more details.",
+        "I recommend checking authoritative sources and documentation for accurate information.",
+        "You can explore trusted platforms and scholarly databases for reliable references.",
+        "Sure thing! I’ll gather the best references for you right away.",
+        "Feel free to consult official documentation or academic papers for deeper insights.",
+        "I suggest referring to credible sources and peer-reviewed articles for clarity.",
+        "Certainly! Reliable references are key. I'll provide you with a few now."
+      ]
+    },
+  {
+  "tag": "fallback",
+  "patterns": [],
+  "responses": ["I'm not sure I understand. Could you clarify?", "I'm here to help, but I didn't get that."]
+}
+
+
+]}
